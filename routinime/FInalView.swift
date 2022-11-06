@@ -13,26 +13,27 @@ struct FInalView: View {
     var body: some View {
         //Text("Final Score: \(value)").onAppear(){
             //SaveScore(quiz: "myQuiz1", score: self.value)
-            Text("chrono \(decideChrono())").onAppear(){
-                SaveScore(quiz: "myQuiz1", score: self.value)
-            }
+        VStack{
+            Text("Your Chronotype is \(decideChrono())")
+            
         }
+    }
     func decideChrono()->String{
         var chronot: String
         if (value == 16){
             chronot="Lion"
         }
-        else if (value>=12){
-            chronot="Wolf"
+        else if (value >= 12){
+            chronot="Dolphin"
         }
-        else if (value>=8){
+        else if (value >= 8){
             chronot="Bear"
         }
         else{
-            chronot="Dolphin"
+            chronot="Wolf"
         }
         return chronot
     }
-    }
+}
 
 

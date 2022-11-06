@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		A42FA7012916FF3F009E12E2 /* routinimeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A42FA7002916FF3F009E12E2 /* routinimeApp.swift */; };
-		A42FA7032916FF3F009E12E2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A42FA7022916FF3F009E12E2 /* ContentView.swift */; };
 		A42FA7052916FF3F009E12E2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A42FA7042916FF3F009E12E2 /* Assets.xcassets */; };
 		A42FA7082916FF3F009E12E2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A42FA7072916FF3F009E12E2 /* Preview Assets.xcassets */; };
 		A42FA70A2916FF3F009E12E2 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = A42FA7092916FF3F009E12E2 /* Persistence.swift */; };
@@ -22,7 +21,6 @@
 /* Begin PBXFileReference section */
 		A42FA6FD2916FF3F009E12E2 /* routinime.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = routinime.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A42FA7002916FF3F009E12E2 /* routinimeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = routinimeApp.swift; sourceTree = "<group>"; };
-		A42FA7022916FF3F009E12E2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		A42FA7042916FF3F009E12E2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A42FA7072916FF3F009E12E2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		A42FA7092916FF3F009E12E2 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
@@ -64,7 +62,6 @@
 			isa = PBXGroup;
 			children = (
 				A42FA7002916FF3F009E12E2 /* routinimeApp.swift */,
-				A42FA7022916FF3F009E12E2 /* ContentView.swift */,
 				A42FA71329170083009E12E2 /* QuizView.swift */,
 				A42FA75229171E77009E12E2 /* quizModel.swift */,
 				A42FA7042916FF3F009E12E2 /* Assets.xcassets */,
@@ -156,7 +153,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				A42FA70A2916FF3F009E12E2 /* Persistence.swift in Sources */,
-				A42FA7032916FF3F009E12E2 /* ContentView.swift in Sources */,
 				A42FA71429170083009E12E2 /* QuizView.swift in Sources */,
 				A42FA70D2916FF3F009E12E2 /* routinime.xcdatamodeld in Sources */,
 				A42FA75329171E77009E12E2 /* quizModel.swift in Sources */,

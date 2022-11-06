@@ -15,7 +15,7 @@ struct QuizView: View {
         
         NavigationView{
             VStack(spacing:20){
-                Text("Welcome to the Quiz Game!")
+                Text("Welcome to the Chronotype!")
                 
                 //Button to start quiz
                 NavigationLink(destination:Quiz1()){
