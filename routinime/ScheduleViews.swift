@@ -10,7 +10,7 @@ import SwiftUI
 struct ScheduleViews: View {
     var body: some View {
         VStack{
-            Image("schedules").resizable().frame(width: 400, height: 600)
+            Image("schedules").resizable().frame(width: 400, height: 601)
         }
     }
 }
