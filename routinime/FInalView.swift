@@ -15,7 +15,13 @@ struct FInalView: View {
             //SaveScore(quiz: "myQuiz1", score: self.value)
         VStack{
             Text("Your Chronotype is \(decideChrono())")
-            
+            NavigationLink(destination: ScheduleViews(), label:{
+                Text("View Your Ideal Schedule!")
+            })
+            Link(destination: URL(string: "https://casper.com/blog/chronotype/")!, label: {
+                Text("Learn More About Chronotypes")
+                
+            })
         }
     }
     func decideChrono()->String{
@@ -24,13 +30,13 @@ struct FInalView: View {
             chronot="Lion"
         }
         else if (value >= 12){
-            chronot="Dolphin"
+            chronot="Wolf"
         }
         else if (value >= 8){
-            chronot="Bear"
+            chronot="Dolphin"
         }
         else{
-            chronot="Wolf"
+            chronot="Bear"
         }
         return chronot
     }

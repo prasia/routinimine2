@@ -16,6 +16,7 @@
 		A42FA71629171C8C009E12E2 /* QuizPackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A42FA71529171C8C009E12E2 /* QuizPackView.swift */; };
 		A42FA75329171E77009E12E2 /* quizModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A42FA75229171E77009E12E2 /* quizModel.swift */; };
 		A42FA755291735FB009E12E2 /* FInalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A42FA754291735FB009E12E2 /* FInalView.swift */; };
+		A4D049C72917ADB10039BE37 /* ScheduleViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4D049C62917ADB10039BE37 /* ScheduleViews.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,7 @@
 		A42FA71529171C8C009E12E2 /* QuizPackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizPackView.swift; sourceTree = "<group>"; };
 		A42FA75229171E77009E12E2 /* quizModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = quizModel.swift; sourceTree = "<group>"; };
 		A42FA754291735FB009E12E2 /* FInalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FInalView.swift; sourceTree = "<group>"; };
+		A4D049C62917ADB10039BE37 /* ScheduleViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleViews.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +72,7 @@
 				A42FA7062916FF3F009E12E2 /* Preview Content */,
 				A42FA71529171C8C009E12E2 /* QuizPackView.swift */,
 				A42FA754291735FB009E12E2 /* FInalView.swift */,
+				A4D049C62917ADB10039BE37 /* ScheduleViews.swift */,
 			);
 			path = routinime;
 			sourceTree = "<group>";
@@ -153,6 +156,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A42FA70A2916FF3F009E12E2 /* Persistence.swift in Sources */,
+				A4D049C72917ADB10039BE37 /* ScheduleViews.swift in Sources */,
 				A42FA71429170083009E12E2 /* QuizView.swift in Sources */,
 				A42FA70D2916FF3F009E12E2 /* routinime.xcdatamodeld in Sources */,
 				A42FA75329171E77009E12E2 /* quizModel.swift in Sources */,
