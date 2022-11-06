@@ -8,16 +8,23 @@
 import SwiftUI
 
 struct QuizView: View {
+    
+    @State var score = 0
+    
     var body: some View {
+        
         NavigationView{
             VStack(spacing:20){
                 Text("Welcome to the Quiz Game!")
                 
                 //Button to start quiz
                 NavigationLink(destination:Quiz1()){
-                    Text("Star Quiz!")
+                    Text("Start Quiz!")
                 }
-            }.navigationTitle("Quiz example",displayMode:.inline)
+                HStack{
+                    
+                }
+            }//.navigationBarTitle("Quiz Example",displayMode: .inline)
         }
     }
 }

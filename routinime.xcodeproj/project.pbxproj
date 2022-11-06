@@ -14,6 +14,9 @@
 		A42FA70A2916FF3F009E12E2 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = A42FA7092916FF3F009E12E2 /* Persistence.swift */; };
 		A42FA70D2916FF3F009E12E2 /* routinime.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A42FA70B2916FF3F009E12E2 /* routinime.xcdatamodeld */; };
 		A42FA71429170083009E12E2 /* QuizView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A42FA71329170083009E12E2 /* QuizView.swift */; };
+		A42FA71629171C8C009E12E2 /* QuizPackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A42FA71529171C8C009E12E2 /* QuizPackView.swift */; };
+		A42FA75329171E77009E12E2 /* quizModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A42FA75229171E77009E12E2 /* quizModel.swift */; };
+		A42FA755291735FB009E12E2 /* FInalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A42FA754291735FB009E12E2 /* FInalView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +28,9 @@
 		A42FA7092916FF3F009E12E2 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		A42FA70C2916FF3F009E12E2 /* routinime.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = routinime.xcdatamodel; sourceTree = "<group>"; };
 		A42FA71329170083009E12E2 /* QuizView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizView.swift; sourceTree = "<group>"; };
+		A42FA71529171C8C009E12E2 /* QuizPackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizPackView.swift; sourceTree = "<group>"; };
+		A42FA75229171E77009E12E2 /* quizModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = quizModel.swift; sourceTree = "<group>"; };
+		A42FA754291735FB009E12E2 /* FInalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FInalView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,10 +66,13 @@
 				A42FA7002916FF3F009E12E2 /* routinimeApp.swift */,
 				A42FA7022916FF3F009E12E2 /* ContentView.swift */,
 				A42FA71329170083009E12E2 /* QuizView.swift */,
+				A42FA75229171E77009E12E2 /* quizModel.swift */,
 				A42FA7042916FF3F009E12E2 /* Assets.xcassets */,
 				A42FA7092916FF3F009E12E2 /* Persistence.swift */,
 				A42FA70B2916FF3F009E12E2 /* routinime.xcdatamodeld */,
 				A42FA7062916FF3F009E12E2 /* Preview Content */,
+				A42FA71529171C8C009E12E2 /* QuizPackView.swift */,
+				A42FA754291735FB009E12E2 /* FInalView.swift */,
 			);
 			path = routinime;
 			sourceTree = "<group>";
@@ -150,7 +159,10 @@
 				A42FA7032916FF3F009E12E2 /* ContentView.swift in Sources */,
 				A42FA71429170083009E12E2 /* QuizView.swift in Sources */,
 				A42FA70D2916FF3F009E12E2 /* routinime.xcdatamodeld in Sources */,
+				A42FA75329171E77009E12E2 /* quizModel.swift in Sources */,
+				A42FA71629171C8C009E12E2 /* QuizPackView.swift in Sources */,
 				A42FA7012916FF3F009E12E2 /* routinimeApp.swift in Sources */,
+				A42FA755291735FB009E12E2 /* FInalView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
